@@ -10,14 +10,13 @@ const Header = () => {
       <IconButton>
         <PersonIcon fontSize="large" className="header__icon" />
       </IconButton>
-
       <img
         className="header__logo"
-        src="https://www.globaldatinginsights.com/wp-content/uploads/2017/08/Screen-Shot-2017-08-17-at-10.04.531.png"
+        src="https://www.techadvisor.com/cmsdata/features/3515013/tinder_logo_thumb1200_16-9.png  "
         alt=""
       />
       <IconButton>
-        <ForumIcon fontSize="large" className=" " />
+        <ForumIcon fontSize="large" className="header__icon" />
       </IconButton>
     </div>
   );
