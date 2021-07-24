@@ -8,16 +8,16 @@ const TinderCards = () => {
 
   useEffect(() => {
     async function fetchData() {
-    //   const req = await axios.get("/tinder/cards");
+        const req = await axios.get("/tinder/cards");
 
-    //   setPeople(req.data);
+        setPeople(req.data);
 
-    await fetch('http://localhost:5000/tinder/cards').then(res=> res.json()).then((data)=>{
-       setPeople(data)
-    })
-
+    //   await fetch("http://localhost:5000/tinder/cards")
+    //     .then((res) => res.json())
+    //     .then((data) => {
+    //       setPeople(data);
+    //     });
     }
-    
 
     fetchData();
   }, []);
